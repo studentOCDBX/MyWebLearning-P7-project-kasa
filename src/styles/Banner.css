@@ -1,0 +1,31 @@
+.banner {
+    position: relative;
+    width: 1240px;
+   height: 223px; 
+   margin: auto;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.banner::before {
+    content: "";
+    position: absolute;
+    background-image: url(homeBanner.jpg);
+    inset: 0;
+    background-position: center;
+    background-size: cover; 
+    border-radius: 1.5rem;
+    /* opacity: 0.75; */
+    filter: brightness(50%)
+}
+
+.banner_title {
+    position: relative;
+    color:#FFF;
+    font-weight: 500;
+    font-size: 48px;
+    
+}
+
